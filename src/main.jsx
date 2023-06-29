@@ -19,11 +19,11 @@ root.render(
       <Navbar />
       <Routes>
 
-        <Route path="/" element={<MyApps />} />
+        <Route path="/david-curtin/" element={<MyApps />} />
 
-        <Route path="/music" element={<Music />} />
+        <Route path="/david-curtin/music" element={<Music />} />
 
-        <Route path="/contact" element={<ContactUs />} />
+        <Route path="/david-curtin/contact" element={<ContactUs />} />
 
       </Routes>
       <Footer />
