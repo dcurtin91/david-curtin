@@ -1,0 +1,62 @@
+h1 {
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.apps {
+  color: black;
+}
+
+.apps:hover {
+  color: rgb(80, 80, 225)
+}
+
+.summary {
+  color: gray;
+  margin-bottom: 7px;
+  font-size: 15px;
+
+}
+
+.summary:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.summary2 {
+  color: gray;
+  margin-bottom: 7px;
+  font-size: 15px;
+
+}
+
+.summary2:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.social-icons {
+
+
+  text-align: end;
+
+
+}
+
+.social-icons a {
+
+
+  font-size: 30px;
+  margin: 0 5px;
+
+
+}
+
+.socials {
+  color: black;
+}
+
+.socials:hover {
+  color: rgb(80, 80, 225)
+}
