@@ -1,7 +1,11 @@
 
-import { faInstagramSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faInstagramSquare, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+const github =
+    <a href="https://github.com/dcurtin91" title="github" target="_blank" rel="noreferrer">
+        <FontAwesomeIcon icon={faGithub} className='socials' />
+    </a>
 
 const instagram =
     <a href="https://www.instagram.com/hifun13skateboard/" title="instagram" target="_blank" rel="noreferrer">
@@ -25,7 +29,7 @@ export default function Footer() {
 
                 </div>
                 <div className="social-icons" aria-hidden="true">
-
+                    {github}
 
                     {instagram}
 
