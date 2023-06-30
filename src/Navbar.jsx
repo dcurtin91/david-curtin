@@ -36,7 +36,7 @@ const Navbar = () => {
                                 Menu
                             </div>
                             <div className="navbar-dropdown">
-                                <div><a href="/" className={`navbar-item ${isActive('/')}`}>
+                                <div><a href="/david-curtin/" className={`navbar-item ${isActive('/david-curtin/')}`}>
                                     Projects
                                 </a></div>
 
@@ -58,11 +58,11 @@ const Navbar = () => {
                                     )}
                                 </div> */}
 
-                                <div><a href="/music" className={`navbar-item ${isActive('/music')}`}>
+                                <div><a href="/david-curtin/music" className={`navbar-item ${isActive('/david-curtin/music')}`}>
                                     Music
                                 </a></div>
 
-                                <div><a href="/contact" className={`navbar-item ${isActive('/contact')}`}>
+                                <div><a href="/david-curtin/contact" className={`navbar-item ${isActive('/david-curtin/contact')}`}>
                                     Contact
                                 </a></div>
 
