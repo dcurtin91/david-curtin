@@ -13,6 +13,7 @@ import { resolve } from 'path'; // Add this line
 
 export default defineConfig({
   plugins: [react()],
+  base: "/david-curtin/",
   build: {
     rollupOptions: {
       input: {
