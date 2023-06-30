@@ -1,12 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import App from './App';
 import './index.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './Navbar';
-import Music from './Music';
-import MyApps from './MyApps';
-import { ContactUs } from './Contact';
-import Footer from './Footer';
 
 import 'bulma/css/bulma.min.css';
 
@@ -14,19 +9,8 @@ import 'bulma/css/bulma.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <>
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
 
-        <Route path="/david-curtin/" element={<MyApps />} />
-
-        <Route path="/david-curtin/music" element={<Music />} />
-
-        <Route path="/david-curtin/contact" element={<ContactUs />} />
-
-      </Routes>
-      <Footer />
-    </BrowserRouter>
-  </>
 );
