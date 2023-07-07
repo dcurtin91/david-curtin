@@ -69,3 +69,31 @@ h1 {
   
 }
 
+.projects-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #f5f5f5;
+  color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.arrow {
+  border: solid #333;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow.down {
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+
+/* Additional CSS styles for your page */
+
