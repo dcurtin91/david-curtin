@@ -37,7 +37,7 @@ const Navbar = () => {
                             </div>
                             <div className="navbar-dropdown">
                                 <div><a href="/david-curtin/" className={`navbar-item ${isActive('/david-curtin/')}`}>
-                                    Projects
+                                    Home/Projects
                                 </a></div>
 
 
