@@ -1,6 +1,6 @@
-
 import { faInstagramSquare, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './App.css'
 
 const github =
     <a href="https://github.com/dcurtin91" title="github" target="_blank" rel="noreferrer">

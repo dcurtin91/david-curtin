@@ -19,7 +19,7 @@ h1 {
 
 }
 
-.summary:hover {
+.sum:hover {
   color: black;
   cursor: pointer;
 }
@@ -60,3 +60,5 @@ h1 {
 .socials:hover {
   color: rgb(80, 80, 225)
 }
+
+

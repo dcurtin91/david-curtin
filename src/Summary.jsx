@@ -24,8 +24,8 @@ export default function Summary() {
     return (
         <div ref={ref}>
 
-            <div onClick={() => setIsOpen(!isOpen)} >Summary</div>
-            {isOpen && <div style={{ textAlign: "center", fontSize: "14px", paddingTop: "20px", backgroundColor: "#f7f7f7", border: "2px solid #000000", position: "fixed", paddingInline: "10px", width: "500px" }}>ChatGPT attempts to sell itself a Honda Civic.<br></br>
+            <div onClick={() => setIsOpen(!isOpen)} className="sum">Summary</div>
+            {isOpen && <div style={{ textAlign: "center", fontSize: "14px", paddingTop: "20px", color: "black", backgroundColor: "#f7f7f7", border: "2px solid #000000", position: "fixed", paddingInline: "10px", width: "500px" }}>ChatGPT attempts to sell itself a Honda Civic.<br></br>
                 The chat contains two characters:<br></br>
                 Jimmy, a timid individual who is interested in a car but is not sure if he's financially ready, and Gary, an aggressive salesman who won't give up.<br></br>
                 *New messages sent every Tuesday*
