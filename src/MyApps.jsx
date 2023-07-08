@@ -21,7 +21,7 @@ function MyApps() {
       <h1
         style={{
           alignItems: "center",
-          marginBottom: "500px",
+          marginBottom: "200px",
           fontSize: "40px",
         }}
       >
@@ -47,7 +47,7 @@ function MyApps() {
       <div id="bottom"></div>
       <div
         className="tile is-ancestor"
-        style={{ marginTop: "50px", marginBottom: "25px" }}
+        style={{ marginTop: "30px", marginBottom: "25px" }}
       >
         <div className="tile is-6 is-vertical is-parent">
           <div className="tile is-child box">
