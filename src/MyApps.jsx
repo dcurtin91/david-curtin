@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import image from "./speccheck.png";
 import image2 from "./GPTloop.png";
+import image3 from "./memberportal.png";
 import Summary from "./Summary";
 import SummaryTwo from "./SummaryTwo";
 import "./App.css";
@@ -53,23 +54,23 @@ function MyApps() {
           <div className="tile is-child box">
             <h1>
               <a
-                href="https://dcurtin91.github.io/gpt-loop/"
+                href="https://dcurtin91.github.io/member-portal"
                 target="_blank"
                 rel="noreferrer"
                 className="apps"
               >
-                GPT Loop
+               CouchSurfing Network - Member Portal
               </a>
             </h1>
             <div className="summary">
-              <Summary />
+              *Work in Progress
             </div>
             <a
-              href="https://dcurtin91.github.io/gpt-loop/"
+              href="https://dcurtin91.github.io/member-portal"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={image2} alt="gptloop" />
+              <img src={image3} alt="memberportal" />
             </a>
           </div>
           {/* <div class="tile is-child box">
