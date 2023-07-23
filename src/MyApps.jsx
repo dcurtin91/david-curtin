@@ -3,8 +3,8 @@ import { Link } from "react-scroll";
 import image from "./speccheck.png";
 import image2 from "./GPTloop.png";
 import image3 from "./memberportal.png";
-import Summary from "./Summary";
-import SummaryTwo from "./SummaryTwo";
+// import Summary from "./Summary";
+// import SummaryTwo from "./SummaryTwo";
 import "./App.css";
 
 function MyApps() {
@@ -15,6 +15,7 @@ function MyApps() {
           alignItems: "center",
           marginTop: "200px",
           fontSize: "80px",
+
         }}
       >
         David Curtin
@@ -52,7 +53,7 @@ function MyApps() {
       >
         <div className="tile is-6 is-vertical is-parent">
           <div className="tile is-child box">
-            <h1>
+            <h1 style={{ marginBottom: "20px"}}>
               <a
                 href="https://dcurtin91.github.io/member-portal"
                 target="_blank"
@@ -80,7 +81,7 @@ function MyApps() {
 
         <div className="tile is-6 is-vertical is-parent">
           <div className="tile is-child box">
-            <h1>
+            <h1 style={{ marginBottom: "20px"}}>
               <a
                 href="https://dcurtin91.github.io/spec-check/"
                 target="_blank"
@@ -90,9 +91,9 @@ function MyApps() {
                 Spec Check
               </a>
             </h1>
-            <div className="summary2">
+            {/* <div className="summary2">
               <SummaryTwo />
-            </div>
+            </div> */}
             <a
               href="https://dcurtin91.github.io/spec-check/"
               target="_blank"
@@ -109,7 +110,7 @@ function MyApps() {
       >
         <div className="tile is-6 is-vertical is-parent">
           <div className="tile is-child box">
-            <h1>
+            <h1 style={{ marginBottom: "20px"}}>
               <a
                 href="https://dcurtin91.github.io/gpt-loop/"
                 target="_blank"
@@ -119,9 +120,9 @@ function MyApps() {
                 GPT Loop
               </a>
             </h1>
-            <div className="summary">
+            {/* <div className="summary">
               <Summary />
-            </div>
+            </div> */}
             <a
               href="https://dcurtin91.github.io/gpt-loop/"
               target="_blank"
@@ -135,7 +136,7 @@ function MyApps() {
                 </div> */}
         </div>
 
-        <div className="tile is-6 is-vertical is-parent">
+        {/* <div className="tile is-6 is-vertical is-parent">
           <div className="tile is-child box">
             <h1>
               <a
@@ -158,7 +159,7 @@ function MyApps() {
               <img src={image} alt="speccheck" />
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
