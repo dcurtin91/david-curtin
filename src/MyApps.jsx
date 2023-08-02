@@ -63,9 +63,9 @@ function MyApps() {
                CouchSurfing Network - Member Portal
               </a>
             </h1>
-            <div className="summary">
+            {/* <div className="summary">
               *Work in Progress
-            </div>
+            </div> */}
             <a
               href="https://dcurtin91.github.io/member-portal"
               target="_blank"
@@ -91,9 +91,9 @@ function MyApps() {
                 Spec Check
               </a>
             </h1>
-            {/* <div className="summary2">
-              <SummaryTwo />
-            </div> */}
+            <div className="summary">
+              *Calibrated for 2560 x 1600 display
+            </div>
             <a
               href="https://dcurtin91.github.io/spec-check/"
               target="_blank"
