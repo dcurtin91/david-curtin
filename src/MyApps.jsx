@@ -84,7 +84,7 @@ function MyApps() {
           <div className="tile is-child box">
             <h1 style={{ marginBottom: "20px"}}>
               <a
-                href="https://dcurtin91.github.io/spec-check/"
+                href="https://youtu.be/E2zzcTR_BpY"
                 target="_blank"
                 rel="noreferrer"
                 className="apps"
@@ -96,7 +96,7 @@ function MyApps() {
               *Calibrated for 2560 x 1600 display
             </div>
             <a
-              href="https://dcurtin91.github.io/spec-check/"
+              href="https://youtu.be/E2zzcTR_BpY"
               target="_blank"
               rel="noreferrer"
             >
