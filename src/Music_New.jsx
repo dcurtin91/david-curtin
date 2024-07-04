@@ -1,6 +1,9 @@
 function MusicNew() {
     return(
-        <div classname="container"></div>
+        <div className="container">
+            <div className="bandcamps"></div>
+            <div className="bandcamps"></div>
+        </div>
     )
 }
 
