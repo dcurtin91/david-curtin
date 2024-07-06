@@ -53,8 +53,7 @@ code {
 
 .bandcamps {
   width: 100%;
-  max-width: 350px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 10px;
+  height: 100%;
+  
+  
 }
