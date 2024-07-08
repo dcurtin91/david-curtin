@@ -8,7 +8,7 @@ import Footer from './Footer';
 
 // import 'bulma/css/bulma.min.css';
 import './App.css'
-import MusicNew from './Music_New';
+
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
 
         <Route path="/david-curtin/contact" element={<ContactUs />} />
 
-        <Route path="/david-curtin/music-new" element={<MusicNew />} />
+      
 
       </Routes>
       <Footer />
